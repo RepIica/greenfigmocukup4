@@ -1,0 +1,157 @@
+/*------------------Nav------------------*/
+#logobox{
+  position: absolute;
+  width: 265px;
+  height: 234px;
+  left: 0px;
+  top: 0px;
+  background-color: rgb(104, 152, 127);
+  margin-left: 15px;
+}
+#logobox > img{
+  width: 240px;
+  margin: 15px 0px 0px 15px;
+}
+.uppernav{
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Mirza";
+  color: rgba(254, 254, 254, 0.612) !important;
+  text-transform: uppercase;
+}
+.navbar-default{
+  background: none;
+  border: 0px;
+  border-radius: 0px;
+}
+#bs-example-navbar-collapse-1{
+  background: rgba(0, 0, 0, 0.4);
+}
+.navbar-collapse ul{
+  margin-left: 250px;
+}
+.navbar-collapse ul li{
+  padding: 10px 15px 0px 15px;
+}
+body > .container > .row:first-child{
+  height: 60px;
+  margin-top: 6px;
+  margin-right: 0px;
+}
+#bg1{
+  background: #1b1b1b; /*Background nav black*/
+  height: 240px;
+  z-index: -10;
+}
+#lowernav{
+  background: #1a1a1a;
+  padding-top: 22px;
+  padding-left: 50px;
+  padding-bottom: 20px; 
+  width: 945px;
+}
+.nav-head{
+  font-family: Handlee;
+  color: white;
+  text-transform: uppercase;
+}
+.nav-info{
+  color: rgb(104, 152, 127);
+  font-family: Mirza;
+  text-transform: uppercase;
+  list-style: none;
+}
+ul{
+  padding: 0;
+}
+/*---------------------end nav------------------*/
+.nopad{
+  padding: 0;
+  margin: 0;
+}
+.main-panel {
+  background-color: rgb(104, 152, 127);
+  box-shadow: -3px 0px 6.79px 0.21px rgba(0, 0, 0, 0.54),0px 5px 6.79px 0.21px rgba(0, 0, 0, 0.54), 3px 0px 6.79px 0.21px rgba(0, 0, 0, 0.64);
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 6px;
+  width: 930px;
+  height: 706px;
+  z-index: -1;
+
+}
+.bg{
+  width: 100%;
+  position: absolute;
+}
+
+/*--------------------carousel------------------*/
+.owl-carousel {
+  position: relative;
+  height: 640px;
+}
+.owl-carousel div{
+  height: 100%;
+}
+#slide1{
+  background-image: url("../layers-export/greenfig-mockup-3-export_0002s_0000_pexels-photo-67514.png");
+}
+#slide2{
+  background-image: url("../images/coffee-macaron.jpg");
+}
+#slide3{
+  background-image: url("../images/egg-sandwich.png");
+}
+.owl-carousel .owl-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+body, html {
+  height: 100%;
+}
+/*--------------------end carousel---------------*/
+@media (min-width: 960px) {
+  .container{
+    width: 960px;
+  }
+  .container-fluid{
+    width: 960px;
+  }
+}
+/*Fonts*/
+@font-face {
+    font-family: Assassin$;
+    src: url(../fonts/assassin$.ttf);
+}
+@font-face {
+    font-family: Aref Ruqaa;
+    src: url(../fonts/arefruqaa-regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Light.ttf);
+}
+@font-face{
+  font-family: Lato-Light;
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+@font-face{
+  font-family: Handlee;
+  src: url(../fonts/Handlee-Regular.ttf);
+}
+@font-face{
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face{
+  font-family: Mirza;
+  src: url(../fonts/Mirza-Regular.ttf);
+}
+
+
+
+
